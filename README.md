@@ -53,15 +53,15 @@ sudo mariadb
 ```
 
 ```
-MariaDB [(none)]> GRANT ALL ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+GRANT ALL ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
 ```
 
 ```
-MariaDB [(none)]> FLUSH PRIVILEGES;
+FLUSH PRIVILEGES;
 ```
 
 ```
-MariaDB [(none)]> exit;
+exit;
 ```
 <br/>
 <p>Test Login :</p>
